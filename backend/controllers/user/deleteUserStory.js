@@ -6,9 +6,7 @@ const deleteAllPosts = async (user) => {
     (await Comment.find({ user: user })).map(
       async () => await Comment.findOneAndDelete({ user: user })
     );
-  } catch(e) {
-    console.log(e)
-  }
+  } catch {}
 };
 
 const deleteAllComments = async (user) => {
@@ -16,9 +14,7 @@ const deleteAllComments = async (user) => {
     (await Post.find({ user: user })).map(
       async () => await Post.findOneAndDelete({ user: user })
     );
-  } catch(e) {
-    conaole.log(e)
-  }
+  } catch {}
 };
 
 module.exports = { deleteAllComments, deleteAllPosts };
