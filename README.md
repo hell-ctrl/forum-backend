@@ -12,7 +12,7 @@ Estou criando uma mini rede social para fins educacionais:)
 
 ## Progresso ⌛
 
-- [ ✔️] Sistema de login e cadastro. 
+- [x] Sistema de login e cadastro. 
 - [ ✔️] Sistema de criação, visualização, edição, exclusão de posts.
 - [ ✔️] Sistema de atualização, exclusão e visualização de perfil.
 - [ ✔️] Sistema de likes e deslikes.
